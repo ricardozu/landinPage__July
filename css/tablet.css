@@ -1,0 +1,65 @@
+.nav{
+    justify-content: flex-end; 
+}
+
+.nav__items{
+    /*padding: 10px 15px*/
+    padding: 10px 15px;
+    
+}
+
+.footer__title{
+    font-size: 3.6rem;
+}
+
+.presentation__copy{
+    /*width:80%*/
+    width: 70%;
+    margin: 0 auto;
+    font-size: 1.4rem;
+}
+
+.about__paragraph{
+    font-size: 1.4rem;
+    text-align: justify;
+}
+
+.testimony__review{
+    font-size: 1.3rem;
+}
+
+.projects__grid{
+    display: grid;
+    height: 550px;
+    grid-template-areas: 
+        "img1 img1 img2 img3"
+        "img1 img1 img4 img5"
+    ;
+    grid-template-columns: none;
+    gap: 5px;
+}
+
+.item-1{
+    grid-area: img1;
+}
+
+.item-2{
+    grid-area: img2;
+}
+
+.item-3{
+    grid-area: img3;
+}
+
+.item-4{
+    grid-area: img4;
+}
+
+.item-5{
+    grid-area: img5;
+}
+
+.nav__items{
+    font-size: 1.4rem;
+}
+
